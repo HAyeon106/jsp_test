@@ -9,6 +9,8 @@
 <%
 String name = request.getParameter("name");
 String sex = request.getParameter("sex");
+
+if(name==null || name)
 %>
 <body>
 <form>
